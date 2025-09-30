@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# FITS files and astronomical data
+*.fits
+*.fit
+*.fts
+*.FITS
+*.FIT
+*.FTS
+
+# Data directories (keep structure but not large files)
+data/raw/*.fits
+data/reduced/*.fits
+data/calibration/*.fits
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+*.pdf
