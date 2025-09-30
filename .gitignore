@@ -219,6 +219,9 @@ data/raw/*.fits
 data/reduced/*.fits
 data/calibration/*.fits
 
+# Local configuration (users should copy config_example.py to config.py)
+config.py
+
 # LaTeX auxiliary files
 *.aux
 *.bbl
