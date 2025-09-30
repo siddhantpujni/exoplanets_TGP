@@ -1,0 +1,56 @@
+Data Sources and Storage Locations
+===================================
+
+This file documents where team members can access shared FITS files
+and other large data that is not stored in the Git repository.
+
+## Telescope Observations
+
+Observing Run: [Date]
+Telescope: [Name]
+Observer: [Name]
+Target(s): [List]
+
+## Raw Data Location
+
+[Specify where raw FITS files are stored]
+
+Examples:
+- Google Drive: https://drive.google.com/drive/folders/...
+- Dropbox: https://www.dropbox.com/sh/...
+- Institutional Server: /data/astro/exoplanets/...
+- Local: Contact [name] for data access
+
+## Calibration Frames
+
+Location: [Where bias, darks, flats are stored]
+Date: [When taken]
+Notes: [Any issues or special considerations]
+
+## Reduced Data
+
+Location: [Where processed data is stored]
+Pipeline: [Which reduction pipeline used]
+Version: [Pipeline version if applicable]
+
+## How to Access
+
+1. [Instructions for team members to get access]
+2. [Authentication/permissions needed]
+3. [Download instructions]
+
+## Metadata Files in Git
+
+The following metadata/results ARE tracked in git:
+- data/observation_log.csv - List of all observations
+- data/lightcurve.csv - Extracted photometry
+- data/photometric_calibration.csv - Calibration results
+- data/*.png, *.pdf - Result plots
+
+## Notes
+
+Update this file whenever data storage locations change.
+Contact [Team Lead] with questions about data access.
+
+Last Updated: [Date]
+Updated By: [Name]
