@@ -1,7 +1,3 @@
-# Quick Start Guide
-
-Get up and running with exoplanet data analysis in minutes!
-
 ## 1. Install Dependencies (5 minutes)
 
 ```bash
