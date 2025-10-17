@@ -36,12 +36,6 @@ conda create -n exoplanets_TGP python=3.10
 # Activate environment
 conda activate exoplanets_TGP
 ```
-
-**Alternative environment names you can use:**
-- `exoplanets_TGP` (recommended - matches project)
-- `telescope_project`
-- `stellar_photometry`
-
 ### 5. Install Astronomy Packages
 
 **Install core packages from conda-forge (recommended for astronomy):**
@@ -57,7 +51,7 @@ conda install -c conda-forge scikit-image scikit-learn
 **Install any remaining packages with pip:**
 
 ```bash
-pip install -r requirements.txt
+pip install -r docs/requirements.txt
 ```
 
 **Why conda-forge?**
