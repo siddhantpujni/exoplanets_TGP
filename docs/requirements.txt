@@ -23,3 +23,10 @@ scikit-learn>=1.0.0
 
 # Additional utilities
 tqdm>=4.62.0
+
+# Transit modelling and MCMC
+batman-package>=2.4.0    # Transit light curve generation
+emcee>=3.1.0            # MCMC sampler
+corner>=2.2.0           # Corner plots for MCMC visualization
+# celerite2>=0.2.0      # Fast GP (optional, for correlated noise)
+# ldtk>=1.7.0           # Limb darkening toolkit (optional)
